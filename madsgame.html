@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Little Mads' Lily Pad</title>
-    <meta name="viewport" content="initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="icon/frog.ico"/>
-    <link href="normalize.css" rel="stylesheet" />
-	<script type="text/javascript" src="pixi.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto" rel="stylesheet">
-</head>
-<body>
- 	<div align="center">
- 		<!--<canvas id="game-canvas" width="375" height="667"></canvas>-->
- 		<canvas id="game-canvas" width="375" height="559"></canvas>
- 	</div>
-    <audio id="ribbit" style="display: none" preload="auto">
-        <source src="sounds/frogRibbit.mp3" />
-    </audio>
-    <audio id="eatSound" style="display: none" preload="auto">
-        <source src="sounds/eatSound.mp3" />
-    </audio>
-    <audio id="lickSound" style="display: none" preload="auto">
-        <source src="sounds/lickSound.mp3" />
-    </audio>
-	<script type="text/javascript" src="madsgame.js"></script>
-</body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Jordan McClintock">
+        <title>Little Mads' Lily Pad</title>
+        <script type="text/javascript" src="pixi.min.js"></script>
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="icon/frog.ico"/>
+    </head>    
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto container">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./.">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/Mac-Janitor" target="_blank">GitHub</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/jordan-mcclintock-53b7b0113/" target="_blank">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="navbar-spacer"></div>
+        <div align="center">
+            <!--<canvas id="game-canvas" width="375" height="667"></canvas>-->
+            <canvas id="game-canvas" width="375" height="559"></canvas>
+        </div>
+        <audio id="ribbit" style="display: none" preload="auto">
+            <source src="sounds/frogRibbit.mp3" />
+        </audio>
+        <audio id="eatSound" style="display: none" preload="auto">
+            <source src="sounds/eatSound.mp3" />
+        </audio>
+        <audio id="lickSound" style="display: none" preload="auto">
+            <source src="sounds/lickSound.mp3" />
+        </audio>
+        <script type="text/javascript" src="madsgame.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>        
+    </body>
 </html>
