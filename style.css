@@ -54,6 +54,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        background-attachment: scroll; /* Changes to scroll on mobile */
+    }
+
     .imgPorfolioCircle {
         border-radius: 50%; /* Rounded corners only on mobile devices */
     }
